@@ -5,7 +5,7 @@ the data came from Roboflow - polyp_detection.v3i.yolov5pytorch is the zip file 
 
 After reading a paper I am going to try a U-NN. It is interesting because it looks similar to a tranformer model with an encoder and a decoder. I have also been looking at visual Transformer models that only use the encoder side of the model.
 
-I ran the U NN on a RTX 3050 and it only took 14 minutes to run one epoch. Although the masks are not perfect it was able to identify where the polyps are the shape is jsut a square instead of the shape of the polyp. I assume if I run more epochs this will perform better.
+I ran the U NN on a RTX 3050 and it only took 14 minutes to run one epoch. Although the masks are not perfect it was able to identify where the polyps are the shape of a square instead of the shape of the polyp. I assume if I run more epochs this will perform better.
 
 2,266 training images and 488 validation images
 Training phase: 284 batches
